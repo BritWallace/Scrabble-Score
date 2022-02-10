@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Scrabble.Logic;
+using Classy;
 
 namespace Scrabble
 {
@@ -8,11 +9,17 @@ namespace Scrabble
     {
         public static void Main()
         {
-            Console.WriteLine("We are gonna score some scrabble tiles! Enter your word: ");
+            Console.Write("Enter your name so we can class it up: ");
+            string name = Console.ReadLine();
+            Console.WriteLine(KeepItClassy.whoIsClassy(name));
+            Console.Write("We are gonna score some scrabble tiles! Enter your word: ");
             string scrabbleWord = Console.ReadLine();
-            //This is just a test to see if the writeline will output 'e'
-            string testWord = "letters";
-            Console.WriteLine(testWord[1]);
+            string lowerCaseWord = scrabbleWord.ToLower();
+            // Console.WriteLine(ScrabbleGame.Score(lowerCaseWord));
+            double total = ScrabbleGame.Score(lowerCaseWord);
+            Console.WriteLine("Total: {0:C}\n", total);
+            Console.WriteLine("└(=^‥^=)┘");
+
         }
     }
 }

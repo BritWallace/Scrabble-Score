@@ -1,17 +1,20 @@
 
-# C# Practice Files
+# C# Scrabble Practice Files
 
 #### By **Brit Wallace, Nathan Conn, Christen Weston, Amber Wilwand.**
 
-#### Scrabble Score. 
+#### Scrabble Score. A console based scrabble word score checker.
+
+
 
 
 ## Technologies Used
 
-* _C#_
-* _dotnet_
-* _MS Testing_
-* _Git_
+* C#
+* NET 5.0
+* dotnet
+* MS Testing
+
 
 
 ## Description
@@ -23,10 +26,10 @@ This was a team Epicodus project that showcases our knowledge of C#.
 * Clone repository.
 * Open code in your favorite text editor. I use VS Code.
 * CD Project.Tests run "dotnet restore"
-* run "dotnet build"
+* Run "dotnet build"
 * Run "dotnet test"
-* CD in to Project.Solution/ProjectName and run "dotnet restore"
-* run "dotnet run"
+* CD in to Project.Solution/ProjectName/Models and run "dotnet restore"
+* Run "dotnet run"
 
 
 ## Known Bugs
@@ -35,9 +38,9 @@ This was a team Epicodus project that showcases our knowledge of C#.
 
 ## Contact Me
 
-_Let us know if you run into any issues or have questions, ideas, or concerns:_
-_britwallace888@gmail.com or nconn34@gmail.com_ 
+Let us know if you run into any issues or have questions, ideas, or concerns:
+britwallace888@gmail.com or nconn34@gmail.com
 
 ## License
 
-Copyright (c) _February/7/2022_ _Brit Wallace, Nathan Conn, Christen Weston, and Amber Wilwand._
+Copyright (c) 2022 _Brit Wallace, Nathan Conn, Christen Weston, and Amber Wilwand.
