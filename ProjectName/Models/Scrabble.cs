@@ -6,9 +6,20 @@ namespace Scrabble.Logic
 {
     public class ScrabbleGame
     {
+        // private string _scrabbleWord;
+        public string scrabbleWord2 {get; set;}
+        public string scrabbleWordToScore2 {get; set;}
+
+//Constructor
+        public ScrabbleGame(string random)
+        {
+            scrabbleWordToScore2 = random;
+            scrabbleWord2 = "1";
+        }
+
         public static double Score(string scrabbleWord)
         {
-            string scrabbleWordToScore = scrabbleWord;
+            string scrabbleWordToScore = scrabbleWord.ToLower(); 
             double totalScore = 0.0;
 
             for (int i = 0; i < scrabbleWordToScore.Length; i++)
